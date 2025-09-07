@@ -18,3 +18,10 @@ Det visar vad som ändrats, av vem och varför.
 Jag råkar ta bort en regel i en .NET-modell. Några dagar senare upptäcks en bugg.  
 Med commit-historiken ser jag exakt vilken commit som orsakade felet och kan fixa det snabbt.
 
+## 3. Samarbete i GitHub
+
+- **Branch:** En egen arbetsgren där jag kan jobba utan att påverka `main`.  
+- **Pull Request (PR):** Ett förslag att föra in min branch i `main`. Här kan man granska kod och köra tester.  
+- **Merge:** När PR:en godkänns slås ändringarna ihop med `main`.
+
+Det gör samarbetet säkert, eftersom flera utvecklare kan jobba parallellt utan att skriva över varandras kod.
